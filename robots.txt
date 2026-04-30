@@ -1,0 +1,15 @@
+# robots.txt for grayonix.com
+# GRAYONIX ENTERPRISES
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://grayonix.com/sitemap.xml
+
+# Crawl-delay (optional, be polite to bots)
+Crawl-delay: 1
+
+# Block access to any internal files
+Disallow: /scripts/
+Disallow: /node_modules/
