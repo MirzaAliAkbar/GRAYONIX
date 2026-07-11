@@ -441,7 +441,51 @@
       cursor: pointer;
       transition: all 0.3s ease;
     }
+    .btn-primary1 {
+      display: inline-flex;
+      align-items: center; /* Vertically centers the logo and text */
+      gap: 8px;            /* Adds a clean space between the logo and text */
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 32px;
+      background: var(--accent);
+      color: #FFF;
+      font-size: 15px;
+      font-weight: 600;
+      border: none;
+      border-radius: 980px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
 
+    .btn-primary1:hover { background: var(--accent-light); transform: scale(1.02); }
+
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 32px;
+      background: transparent;
+      color: var(--accent);
+      font-size: 15px;
+      font-weight: 500;
+      border: 1.5px solid rgba(201,168,76,0.4);
+      border-radius: 980px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .btn-icon {
+      width: 20px;         /* Keeps the logo small like an icon */
+      height: 20px;
+      object-fit: contain; /* Prevents the logo from stretching awkwardly */
+    }
+
+    
     .btn-secondary:hover { border-color: var(--accent); background: var(--accent-subtle); }
 
     /* ── SECTIONS ── */
@@ -1086,7 +1130,7 @@
       <h2>Premium Mobile Accessories <span>&</span> General Trading</h2>
       <div class="hero-actions">
         <a href="#products" class="btn-primary" aria-label="Explore our mobile accessories">Explore Products</a>
-        <a href="https://studio.grayonix.com" class="btn-primary" aria-label="Explore our mobile accessories">
+        <a href="https://studio.grayonix.com" class="btn-primary1" aria-label="Explore our Studio-Page">
   <!-- Subdomain Logo -->
   <img src="studio.png" alt="" class="btn-icon">
   Grayonix Studio
